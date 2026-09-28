@@ -1,0 +1,31 @@
+node_modules/
+.expo/
+dist/
+web-build/
+*.log
+.DS_Store
+
+# Native projects are generated from app.json by `expo prebuild` (CNG) — don't commit
+/ios/
+/android/
+
+# Local env (secrets — never commit)
+.env
+.env.local
+.env.*.local
+
+# Supabase CLI local cache/state
+supabase/.temp/
+
+# Claude Design handoff bundle (local reference only)
+.design/
+Little-Sort-assets/
+signup-screen/
+Little Sort - *.html
+
+# Google Play service account key for eas submit (secret, never commit)
+google-play-service-account.json
+
+# App Store Connect API key (secret, never commit)
+Authkeys/
+*.p8
